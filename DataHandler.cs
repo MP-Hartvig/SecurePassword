@@ -47,7 +47,6 @@ namespace SecurePassword
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Exception happened when trying to get salt on user. More info below: \n" + e);
                     return salt;
                 }
             }
@@ -91,7 +90,6 @@ namespace SecurePassword
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Exception happened when trying to get user id. More info below: \n" + e);
                     return false;
                 }
             }
@@ -127,7 +125,6 @@ namespace SecurePassword
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Exception happened when trying to get user id. More info below: \n" + e);
                     return id;
                 }
             }
@@ -210,7 +207,6 @@ namespace SecurePassword
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exception happened when updating user info. More info below: \n" + e);
                 return false;
             }
         }

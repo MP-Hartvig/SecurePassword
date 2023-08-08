@@ -151,8 +151,8 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login couldn't be verified in the database, make sure you entered the right credentials or created a user first.");
-            Console.WriteLine("\nPress escape to go back.");
+            Console.WriteLine("Your login couldn't be verified in the database, make sure you entered the right credentials or created a user first. \n");
+            Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
             {
@@ -167,7 +167,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login was created in the database.");
+            Console.WriteLine("Your login was created in the database. \n");
             Console.WriteLine("Press escape to go back and login.");
 
             while (loginSuccesfulMenu)
@@ -183,7 +183,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login failed to be inserted into the database.");
+            Console.WriteLine("Your login failed to be inserted into the database. \n");
             Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
@@ -248,7 +248,7 @@ namespace SecurePassword
                         {
                             bool secondDrilldown = true;
 
-                            Console.WriteLine("Write the new password for the account, press enter twice to save.");
+                            Console.WriteLine("Write the new password for the account, press enter twice to save. \n");
 
                             while (secondDrilldown)
                             {
@@ -281,7 +281,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login was succesfully updated in the database.");
+            Console.WriteLine("Your login was succesfully updated in the database. \n");
             Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
@@ -297,7 +297,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login failed to be updated in the database.");
+            Console.WriteLine("Your login failed to be updated in the database. \n");
             Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
@@ -356,7 +356,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login was succesfully updated in the database.");
+            Console.WriteLine("Your login was succesfully updated in the database. \n");
             Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
@@ -372,7 +372,7 @@ namespace SecurePassword
         {
             bool loginSuccesfulMenu = true;
 
-            Console.WriteLine("Your login failed to be updated in the database.");
+            Console.WriteLine("Your login failed to be updated in the database. \n");
             Console.WriteLine("Press escape to go back.");
 
             while (loginSuccesfulMenu)
